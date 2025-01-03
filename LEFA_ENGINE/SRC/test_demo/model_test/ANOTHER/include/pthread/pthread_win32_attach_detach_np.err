@@ -1,0 +1,2 @@
+pthread_win32_attach_detach_np.c(91): Warning! W131: No prototype found for function '_tcsncat_s'
+pthread_win32_attach_detach_np.c(91): Warning! W131: No prototype found for function '_countof'

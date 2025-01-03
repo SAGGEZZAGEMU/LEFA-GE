@@ -1,0 +1,163 @@
+
+@echo off
+
+wlib -b -c -fo PTHREAD.LIB ^
+cleanup.obj ^
+create.obj ^
+dll.obj ^
+errno.obj ^
+global.obj ^
+pthread.obj ^
+pthread_attr_destroy.obj ^
+pthread_attr_getaffinity_np.obj ^
+pthread_attr_getdetachstate.obj ^
+pthread_attr_getinheritsched.obj ^
+pthread_attr_getname_np.obj ^
+pthread_attr_getschedparam.obj ^
+pthread_attr_getschedpolicy.obj ^
+pthread_attr_getscope.obj ^
+pthread_attr_getstackaddr.obj ^
+pthread_attr_getstacksize.obj ^
+pthread_attr_init.obj ^
+pthread_attr_setaffinity_np.obj ^
+pthread_attr_setdetachstate.obj ^
+pthread_attr_setinheritsched.obj ^
+pthread_attr_setname_np.obj ^
+pthread_attr_setschedparam.obj ^
+pthread_attr_setschedpolicy.obj ^
+pthread_attr_setscope.obj ^
+pthread_attr_setstackaddr.obj ^
+pthread_attr_setstacksize.obj ^
+pthread_barrierattr_destroy.obj ^
+pthread_barrierattr_getpshared.obj ^
+pthread_barrierattr_init.obj ^
+pthread_barrierattr_setpshared.obj ^
+pthread_barrier_destroy.obj ^
+pthread_barrier_init.obj ^
+pthread_barrier_wait.obj ^
+pthread_cancel.obj ^
+pthread_condattr_destroy.obj ^
+pthread_condattr_getpshared.obj ^
+pthread_condattr_init.obj ^
+pthread_condattr_setpshared.obj ^
+pthread_cond_destroy.obj ^
+pthread_cond_init.obj ^
+pthread_cond_signal.obj ^
+pthread_cond_wait.obj ^
+pthread_delay_np.obj ^
+pthread_detach.obj ^
+pthread_equal.obj ^
+pthread_exit.obj ^
+pthread_getconcurrency.obj ^
+pthread_getname_np.obj ^
+pthread_getschedparam.obj ^
+pthread_getspecific.obj ^
+pthread_getunique_np.obj ^
+pthread_getw32threadhandle_np.obj ^
+pthread_join.obj ^
+pthread_key_create.obj ^
+pthread_key_delete.obj ^
+pthread_kill.obj ^
+pthread_mutexattr_destroy.obj ^
+pthread_mutexattr_getkind_np.obj ^
+pthread_mutexattr_getpshared.obj ^
+pthread_mutexattr_getrobust.obj ^
+pthread_mutexattr_gettype.obj ^
+pthread_mutexattr_init.obj ^
+pthread_mutexattr_setkind_np.obj ^
+pthread_mutexattr_setpshared.obj ^
+pthread_mutexattr_setrobust.obj ^
+pthread_mutexattr_settype.obj ^
+pthread_mutex_consistent.obj ^
+pthread_mutex_destroy.obj ^
+pthread_mutex_init.obj ^
+pthread_mutex_lock.obj ^
+pthread_mutex_timedlock.obj ^
+pthread_mutex_trylock.obj ^
+pthread_mutex_unlock.obj ^
+pthread_num_processors_np.obj ^
+pthread_once.obj ^
+pthread_rwlockattr_destroy.obj ^
+pthread_rwlockattr_getpshared.obj ^
+pthread_rwlockattr_init.obj ^
+pthread_rwlockattr_setpshared.obj ^
+pthread_rwlock_destroy.obj ^
+pthread_rwlock_init.obj ^
+pthread_rwlock_rdlock.obj ^
+pthread_rwlock_timedrdlock.obj ^
+pthread_rwlock_timedwrlock.obj ^
+pthread_rwlock_tryrdlock.obj ^
+pthread_rwlock_trywrlock.obj ^
+pthread_rwlock_unlock.obj ^
+pthread_rwlock_wrlock.obj ^
+pthread_self.obj ^
+pthread_setaffinity.obj ^
+pthread_setcancelstate.obj ^
+pthread_setcanceltype.obj ^
+pthread_setconcurrency.obj ^
+pthread_setname_np.obj ^
+pthread_setschedparam.obj ^
+pthread_setspecific.obj ^
+pthread_spin_destroy.obj ^
+pthread_spin_init.obj ^
+pthread_spin_lock.obj ^
+pthread_spin_trylock.obj ^
+pthread_spin_unlock.obj ^
+pthread_testcancel.obj ^
+pthread_timechange_handler_np.obj ^
+pthread_timedjoin_np.obj ^
+pthread_tryjoin_np.obj ^
+pthread_win32_attach_detach_np.obj ^
+ptw32_calloc.obj ^
+ptw32_callUserDestroyRoutines.obj ^
+ptw32_cond_check_need_init.obj ^
+ptw32_getprocessors.obj ^
+ptw32_is_attr.obj ^
+ptw32_MCS_lock.obj ^
+ptw32_mutex_check_need_init.obj ^
+ptw32_new.obj ^
+ptw32_processInitialize.obj ^
+ptw32_processTerminate.obj ^
+ptw32_relmillisecs.obj ^
+ptw32_reuse.obj ^
+ptw32_rwlock_cancelwrwait.obj ^
+ptw32_rwlock_check_need_init.obj ^
+ptw32_semwait.obj ^
+ptw32_spinlock_check_need_init.obj ^
+ptw32_threadDestroy.obj ^
+ptw32_threadStart.obj ^
+ptw32_throw.obj ^
+ptw32_timespec.obj ^
+ptw32_tkAssocCreate.obj ^
+ptw32_tkAssocDestroy.obj ^
+sched_getscheduler.obj ^
+sched_get_priority_max.obj ^
+sched_get_priority_min.obj ^
+sched_setaffinity.obj ^
+sched_setscheduler.obj ^
+sched_yield.obj ^
+sem_close.obj ^
+sem_destroy.obj ^
+sem_getvalue.obj ^
+sem_init.obj ^
+sem_open.obj ^
+sem_post.obj ^
+sem_post_multiple.obj ^
+sem_timedwait.obj ^
+sem_trywait.obj ^
+sem_unlink.obj ^
+sem_wait.obj ^
+signal.obj ^
+w32_CancelableWait.obj ^
+
+
+
+
+
+
+
+
+
+
+
+pause
